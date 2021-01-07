@@ -12,9 +12,15 @@ function getBigRooms<T extends MeetingResource>(rooms: Array<T>, minSize: number
   return bigRooms;
 }
 
-let bigRooms: Array<ConferenceRoom> = getBigRooms<ConferenceRoom>(conferenceRoomData, 20);
+// let bigRooms: Array<ConferenceRoom> = getBigRooms<ConferenceRoom>(conferenceRoomData, 20);
+// console.log(bigRooms);
 
-console.log(bigRooms);
+let getLargeRooms: <T extends MeetingResource>(rooms: Array<T>, minSize: number) => Array<T>;
+getLargeRooms = getBigRooms;
+
+let largeRooms: Array<ConferenceRoom> = getLargeRooms(conferenceRoomData, 30);
+
+console.log(largeRooms);
 
 // function shortenArray<T>(data: Array<T>, amountToShorten: number) {
 //   return data.splice(amountToShorten, data.length);
