@@ -1,0 +1,22 @@
+{
+  "name": "05-creating-and-using-generics-in-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abid-2362/creating-and-using-generics-in-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abid-2362/creating-and-using-generics-in-typescript/issues"
+  },
+  "homepage": "https://github.com/abid-2362/creating-and-using-generics-in-typescript#readme"
+}
