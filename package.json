@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/abid-2362/creating-and-using-generics-in-typescript/issues"
   },
-  "homepage": "https://github.com/abid-2362/creating-and-using-generics-in-typescript#readme"
+  "homepage": "https://github.com/abid-2362/creating-and-using-generics-in-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
