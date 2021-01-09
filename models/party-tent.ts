@@ -1,4 +1,4 @@
-import { MeetingResource } from "./meetingResource";
+import { MeetingResource } from "./meeting-resource";
 
 export class PartyTent implements MeetingResource {
   name: string;
